@@ -1,6 +1,6 @@
-### My Personal Website
+#My Personal Website
 
-## Learning notes
+# Notes
 
 - used '>' in CSS selectors to target elements more precisely
 - used 'pt' for font sizes to make sure they are readible across all devices
