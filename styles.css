@@ -1,0 +1,197 @@
+.nav-background {
+    background-color:#4172a3;
+}
+
+.navigation .nav-link {
+    color:#f6f6f6;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+}
+
+.nav-item {
+    padding-right: 2vw;
+}
+
+.icon {
+    padding-right: 0;
+}
+
+.logo {
+    font-family: 'Send Flowers', cursive;
+    font-size: 50pt;
+    text-decoration: none;
+    color:#f6f6f6;
+    padding: 2vw;
+    font-weight: 1000;
+}
+
+.logo:hover, .logo:active {
+    background-color:#A35752;
+    border-radius: 10%;
+    color:#f6f6f6;
+}
+
+.nav-link:hover, .navlink:active {
+    background-color: #A35752;
+    color: #f6f6f6;
+    border-radius: 5%;
+}
+
+h1 {
+    font-family: 'Send Flowers', cursive;
+    color: #4172a3;
+    font-weight: bold;
+    font-size: 50pt;
+}
+
+h2.hero {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #A35752;
+    font-size: 20pt;
+}
+
+img.hero {
+    border-radius: 10%;
+}
+
+.blue-background {
+    margin-top: 5vw;
+    background-color: #4172a3;
+}
+
+.white-h2 {
+    font-family: 'Send Flowers', cursive;
+    color: #f6f6f6;
+    font-weight: bold;
+    font-size: 30pt;
+    padding-top: 5vw;
+}
+
+p.about {
+    font-family: 'Dosis', sans-serif;
+    padding-bottom: 10vw;
+    color: #f6f6f6;
+    font-size: 12pt;
+    margin-bottom: 0;
+}
+
+.blue-h2 {
+    font-family: 'Send Flowers', cursive;
+    color:#4172a3;
+    font-weight: bold;
+    font-size: 30pt;
+    padding-top: 5vw;
+}
+
+img.portfolio {
+    border: 1px solid #4172a3;
+    padding: 1px;
+}
+
+.portfolio>h3 {
+    color:#4172a3;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.portfolio>p {
+    font-family: 'Dosis',sans-serif;
+    font-size: 12pt;
+    color:#A35752;
+}
+
+button.portfolio {
+    background-color:#f6f6f6;
+    color:#4172a3;
+    border: 1px solid #4172a3;
+    height: 5vh;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+}
+
+button.portfolio:hover, button.portfolio:active {
+    background-color: #4172a3;
+    color:#f6f6f6;
+    border: 1px solid #4172a3;
+}
+
+.education>h3 {
+    color:#f6f6f6;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20pt;
+}
+
+.education>h4 {
+    color:#f6f6f6;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16pt;
+}
+
+.education>p, .education>li {
+    font-size: 12pt;
+    color:#f6f6f6;
+    font-family: 'Dosis', sans-serif;
+}
+
+.footer {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    color: #A35752;
+    font-size: 12pt;
+    font-family: 'Dosis', sans-serif;
+}
+
+.footer-logo {
+    font-family: 'Send Flowers', cursive;
+    font-size: 50pt;
+    text-decoration: none;
+    color: #4172a3;
+    font-weight: 1000;
+    padding-top: 5vw;
+    margin: 0;
+}
+
+.contact-me {
+    background-color: #4172a3;
+    color:#f6f6f6;
+}
+
+.contact-me>img {
+    border-radius: 10%;
+}
+
+.contact-me>h1 {
+    color:#f6f6f6;
+    font-family: 'Send Flowers', cursive;
+    font-size: 50pt;
+    padding-left: 1vw;
+}
+
+.contact-me>h2 {
+    font-family: 'Dosis', sans-serif;
+    padding-left: 1vw;
+    font-size: 20pt;
+}
+
+.contact-me>h3 {
+    font-family: 'Dosis', sans-serif;
+    padding-left: 1vw;
+    font-size: 16pt;
+    padding-bottom: 5vw;
+}
+
+a.contact-me {
+    color:#f6f6f6;
+    padding: 1vw;
+    border-radius: 10%;
+}
+
+a.contact-me:hover, a.contact-me:active {
+    background-color: #A35752;
+}
