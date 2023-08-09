@@ -31,7 +31,7 @@
     color:#f6f6f6;
 }
 
-.nav-link:hover, .navlink:active {
+.nav-link:hover, .nav-link:active {
     background-color: #A35752;
     color: #f6f6f6;
     border-radius: 5%;
