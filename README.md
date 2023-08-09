@@ -1,6 +1,5 @@
-# My Personal Website
-catherinealicewood.github.io
-
+# My Portfolio Website
+[https://catherinealicewood.github.io/Catherine-Wood/]
 # Notes
 
 - used '>' in CSS selectors to target elements more precisely
