@@ -102,6 +102,10 @@ img.portfolio {
     color:#A35752;
 }
 
+a {
+    text-decoration: none;
+}
+
 button.portfolio {
     background-color:#f6f6f6;
     color:#4172a3;
