@@ -5,13 +5,16 @@
 .navigation .nav-link {
     color:#f6f6f6;
     font-family: 'Dosis', sans-serif;
-    font-size: 12pt;
+    font-size: 16pt;
 }
 
 .nav-item {
     padding-right: 2vw;
 }
 
+.navbar-toggler {
+    color:#A35752;
+}
 .icon {
     padding-right: 0;
 }
@@ -27,14 +30,14 @@
 
 .logo:hover, .logo:active {
     background-color:#A35752;
-    border-radius: 10%;
+    border-radius: 50px;
     color:#f6f6f6;
 }
 
 .nav-link:hover, .nav-link:active {
     background-color: #A35752;
     color: #f6f6f6;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 h1 {
@@ -64,7 +67,7 @@ img.hero {
     font-family: 'Send Flowers', cursive;
     color: #f6f6f6;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 50pt;
     padding-top: 5vw;
 }
 
@@ -72,7 +75,7 @@ p.about {
     font-family: 'Dosis', sans-serif;
     padding-bottom: 10vw;
     color: #f6f6f6;
-    font-size: 12pt;
+    font-size: 16pt;
     margin-bottom: 0;
 }
 
@@ -80,7 +83,7 @@ p.about {
     font-family: 'Send Flowers', cursive;
     color:#4172a3;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 50pt;
     padding-top: 5vw;
 }
 
@@ -93,12 +96,12 @@ img.portfolio {
     color:#4172a3;
     font-family: 'Dosis',sans-serif;
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 20pt;
 }
 
 .portfolio>p {
     font-family: 'Dosis',sans-serif;
-    font-size: 12pt;
+    font-size: 16pt;
     color:#A35752;
 }
 
@@ -112,7 +115,7 @@ button.portfolio {
     border: 1px solid #4172a3;
     height: 5vh;
     font-family: 'Dosis', sans-serif;
-    font-size: 12pt;
+    font-size: 16pt;
 }
 
 button.portfolio:hover, button.portfolio:active {
@@ -130,24 +133,23 @@ button.portfolio:hover, button.portfolio:active {
 .education>h4 {
     color:#f6f6f6;
     font-family: 'Dosis', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
-.education>p, .education>li {
-    font-size: 12pt;
+.education>p {
+    font-size: 14pt;
     color:#f6f6f6;
     font-family: 'Dosis', sans-serif;
 }
 
 .footer {
     background-color: #f6f6f6;
-    display: flex;
-    justify-content: center;
+    padding-bottom: 5vh;
 }
 
 .copyright {
     color: #A35752;
-    font-size: 12pt;
+    font-size: 16pt;
     font-family: 'Dosis', sans-serif;
 }
 
