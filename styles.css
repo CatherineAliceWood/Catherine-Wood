@@ -99,10 +99,16 @@ img.portfolio {
     font-size: 20pt;
 }
 
-.portfolio>p {
+.portfolio-p-1 {
     font-family: 'Dosis',sans-serif;
     font-size: 16pt;
     color:#A35752;
+}
+
+.portfolio-p-2 {
+    font-family: 'Dosis',sans-serif;
+    font-size: 16pt;
+    color:#4172a3;
 }
 
 a {
