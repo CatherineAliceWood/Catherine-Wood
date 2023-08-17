@@ -1,9 +1,9 @@
 .nav-background {
-    background-color:#4172a3;
+    background-color: #4172a3;
 }
 
 .navigation .nav-link {
-    color:#f6f6f6;
+    color: #f6f6f6;
     font-family: 'Dosis', sans-serif;
     font-size: 16pt;
 }
@@ -13,8 +13,9 @@
 }
 
 .navbar-toggler {
-    color:#A35752;
+    color: #A35752;
 }
+
 .icon {
     padding-right: 0;
 }
@@ -23,18 +24,20 @@
     font-family: 'Send Flowers', cursive;
     font-size: 50pt;
     text-decoration: none;
-    color:#f6f6f6;
+    color: #f6f6f6;
     padding: 2vw;
     font-weight: 1000;
 }
 
-.logo:hover, .logo:active {
-    background-color:#A35752;
+.logo:hover,
+.logo:active {
+    background-color: #A35752;
     border-radius: 50px;
-    color:#f6f6f6;
+    color: #f6f6f6;
 }
 
-.nav-link:hover, .nav-link:active {
+.nav-link:hover,
+.nav-link:active {
     background-color: #A35752;
     color: #f6f6f6;
     border-radius: 20px;
@@ -81,7 +84,7 @@ p.about {
 
 .blue-h2 {
     font-family: 'Send Flowers', cursive;
-    color:#4172a3;
+    color: #4172a3;
     font-weight: bold;
     font-size: 50pt;
     padding-top: 5vw;
@@ -93,22 +96,22 @@ img.portfolio {
 }
 
 .portfolio>h3 {
-    color:#4172a3;
-    font-family: 'Dosis',sans-serif;
+    color: #4172a3;
+    font-family: 'Dosis', sans-serif;
     font-weight: bold;
     font-size: 20pt;
 }
 
 .portfolio-p-1 {
-    font-family: 'Dosis',sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 16pt;
-    color:#A35752;
+    color: #A35752;
 }
 
 .portfolio-p-2 {
-    font-family: 'Dosis',sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 16pt;
-    color:#4172a3;
+    color: #4172a3;
 }
 
 a {
@@ -116,35 +119,36 @@ a {
 }
 
 button.portfolio {
-    background-color:#f6f6f6;
-    color:#4172a3;
+    background-color: #f6f6f6;
+    color: #4172a3;
     border: 1px solid #4172a3;
     height: 5vh;
     font-family: 'Dosis', sans-serif;
     font-size: 16pt;
 }
 
-button.portfolio:hover, button.portfolio:active {
+button.portfolio:hover,
+button.portfolio:active {
     background-color: #4172a3;
-    color:#f6f6f6;
+    color: #f6f6f6;
     border: 1px solid #4172a3;
 }
 
 .education>h3 {
-    color:#f6f6f6;
+    color: #f6f6f6;
     font-family: 'Dosis', sans-serif;
     font-size: 20pt;
 }
 
 .education>h4 {
-    color:#f6f6f6;
+    color: #f6f6f6;
     font-family: 'Dosis', sans-serif;
     font-size: 14pt;
 }
 
 .education>p {
     font-size: 14pt;
-    color:#f6f6f6;
+    color: #f6f6f6;
     font-family: 'Dosis', sans-serif;
 }
 
@@ -171,7 +175,7 @@ button.portfolio:hover, button.portfolio:active {
 
 .contact-me {
     background-color: #4172a3;
-    color:#f6f6f6;
+    color: #f6f6f6;
 }
 
 .contact-me>img {
@@ -179,7 +183,7 @@ button.portfolio:hover, button.portfolio:active {
 }
 
 .contact-me>h1 {
-    color:#f6f6f6;
+    color: #f6f6f6;
     font-family: 'Send Flowers', cursive;
     font-size: 50pt;
     padding-left: 1vw;
@@ -199,11 +203,12 @@ button.portfolio:hover, button.portfolio:active {
 }
 
 a.contact-me {
-    color:#f6f6f6;
+    color: #f6f6f6;
     padding: 1vw;
     border-radius: 10%;
 }
 
-a.contact-me:hover, a.contact-me:active {
+a.contact-me:hover,
+a.contact-me:active {
     background-color: #A35752;
 }
