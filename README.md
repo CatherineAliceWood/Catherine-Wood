@@ -1,5 +1,5 @@
 # My Portfolio Website
-[https://catherinealicewood.github.io/Catherine-Wood/]
+[https://catherinealicewood.github.io/Catherine-Wood/](https://catherinealicewood.github.io/Catherine-Wood/)
 # Notes
 
 - used 'pt' for font sizes to make sure they are readible across all devices
