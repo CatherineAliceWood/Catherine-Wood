@@ -1,8 +1,11 @@
-header a,
-footer a {
+header a {
     color: #4172a3;
-    font-family: 'Dosis', sans-serif;
     font-size: 16pt;
+}
+
+footer a {
+    color:#4172a3;
+    font-size: 12pt;
 }
 
 header svg, footer svg {
@@ -20,15 +23,21 @@ footer svg:active {
     color: #A35752;
 }
 
-h1 {
-    font-family: 'Send Flowers', cursive;
-    color: #4172a3;
-    font-size: 40pt;
-    font-weight: 900;
+a {
+    text-decoration: none;
 }
 
-h2 {
+h1, h2, h3, h4, p, a {
     font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    color: #4172a3;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+header h2 {
     color: #A35752;
     font-size: 20pt;
 }
@@ -36,73 +45,57 @@ h2 {
 header img,
 footer img {
     border-radius: 50%;
-    height: 10vh;
+    height: 8vh;
 }
 
 .blue-background {
-    padding-bottom: 25px;
     background-color: #4172a3;
 }
 
+.white-background {
+    background-color: #f6f6f6;
+}
+
 .white-h2 {
-    font-family: 'Send Flowers', cursive;
     color: #f6f6f6;
     font-weight: bold;
-    font-size: 50pt;
+    font-size: 30pt;
 }
 
 .blue-h2 {
-    font-family: 'Send Flowers', cursive;
-    color: #4172a3;
+    color:#4172a3;
     font-weight: bold;
-    font-size: 50pt;
+    font-size: 30pt;
 }
 
 img.portfolio {
-    border: 1px solid #A35752;
-    padding: 1px;
     margin-bottom: 5px;
     width: 70%;
 }
 
-.portfolio-white-background h3 {
+h3 {
     color:#4172a3;
-    font-family: 'Dosis', sans-serif;
-    font-weight: bold;
     font-size: 25pt;
 }
 
-.portfolio-white-background h4 {
-    font-family: 'Dosis', sans-serif;
+h4 {
     color:#A35752;
 }
 
-.portfolio-white-background p {
-    font-family: 'Dosis', sans-serif;
+p {
     font-size: 16pt;
+}
+.blue-p {
     color:#4172a3;
 }
 
-.portfolio-blue-background h3, .education h3 {
-    color:#f6f6f6;
-    font-family: 'Dosis', sans-serif;
-    font-weight: bold;
-    font-size: 25pt;
+.red-p {
+    color:#A35752;
 }
 
-.portfolio-blue-background h4 {
-    font-family: 'Dosis', sans-serif;
-    color:#f6f6f6;
-}
-
-.portfolio-blue-background p, .education p {
-    font-family: 'Dosis', sans-serif;
-    font-size: 16pt;
-    color:#f6f6f6;
-}
-
-a {
-    text-decoration: none;
+footer p {
+    font-size: 12pt;
+    margin-top: 5px;
 }
 
 .portfolio button {
@@ -112,6 +105,7 @@ a {
     height: 50px;
     font-family: 'Dosis', sans-serif;
     font-size: 16pt;
+    margin: 5px;
 }
 
 .portfolio button:hover,
@@ -119,43 +113,4 @@ a {
     background-color: #A35752;
     color: #f6f6f6;
     border: 1px solid #f6f6f6;
-}
-
-.about p {
-    color:#A35752;
-    font-family: 'Dosis', sans-serif;
-    font-size: 16pt;
-}
-.education h4 {
-    color: #f6f6f6;
-    font-family: 'Dosis', sans-serif;
-}
-
-footer {
-    background-color: #f6f6f6;
-    padding-bottom: 25px;
-}
-
-footer p {
-    color: #A35752;
-    font-size: 16pt;
-    font-family: 'Dosis', sans-serif;
-}
-
-footer h2 {
-    font-family: 'Send Flowers', cursive;
-    font-size: 40pt;
-    text-decoration: none;
-    color: #4172a3;
-    font-weight: 1000;
-    padding-top: 25px;
-    margin: 0;
-}
-
-.white-background {
-    background-color: #f6f6f6;
-}
-
-footer span {
-    color:#4172a3;
 }
