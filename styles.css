@@ -143,6 +143,11 @@ button.portfolio:active {
     margin: 0;
 }
 
+.white-background {
+    background-color: #f6f6f6;
+    background-size: 100%;
+}
+
 .contact-me {
     color: #f6f6f6;
 }
@@ -153,7 +158,6 @@ button.portfolio:active {
 }
 
 .contact-me h1 {
-    color: #f6f6f6;
     font-family: 'Send Flowers', cursive;
     font-size: 50pt;
     padding-left: 10px;
