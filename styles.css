@@ -1,68 +1,42 @@
-.nav-background {
-    background-color: #4172a3;
+.my-navbar a {
+    color: #4172a3;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+    padding-right: 10px;
 }
 
-.navigation .nav-link {
-    color: #f6f6f6;
+.my-navbar a:hover,
+.my-navbar a:active,
+.my-navbar svg:hover,
+.my-navbar svg:active {
+    color: #A35752;
+}
+
+.my-navbar h1 {
+    font-family: 'Send Flowers', cursive;
+    color: #4172a3;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.my-navbar h2 {
     font-family: 'Dosis', sans-serif;
+    color: #A35752;
     font-size: 16pt;
 }
 
-.nav-item {
-    padding-right: 2vw;
+.my-navbar img {
+    border-radius: 50%;
+    height: 100px;
 }
 
-.navbar-toggler {
-    color: #A35752;
-}
-
-.icon {
-    padding-right: 0;
-}
-
-.logo {
-    font-family: 'Send Flowers', cursive;
-    font-size: 50pt;
-    text-decoration: none;
-    color: #f6f6f6;
-    padding: 2vw;
-    font-weight: 1000;
-}
-
-.logo:hover,
-.logo:active {
-    background-color: #A35752;
-    border-radius: 50px;
-    color: #f6f6f6;
-}
-
-.nav-link:hover,
-.nav-link:active {
-    background-color: #A35752;
-    color: #f6f6f6;
-    border-radius: 20px;
-}
-
-h1 {
-    font-family: 'Send Flowers', cursive;
+.my-navbar svg {
     color: #4172a3;
-    font-weight: bold;
-    font-size: 50pt;
-}
-
-h2.hero {
-    font-family: 'Dosis', sans-serif;
-    font-weight: bold;
-    color: #A35752;
-    font-size: 20pt;
-}
-
-img.hero {
-    border-radius: 10%;
+    margin: 5px;
 }
 
 .blue-background {
-    margin-top: 5vw;
+    padding-bottom: 25px;
     background-color: #4172a3;
 }
 
@@ -70,15 +44,15 @@ img.hero {
     font-family: 'Send Flowers', cursive;
     color: #f6f6f6;
     font-weight: bold;
-    font-size: 50pt;
+    font-size: 30pt;
     padding-top: 5vw;
 }
 
 p.about {
     font-family: 'Dosis', sans-serif;
     padding-bottom: 10vw;
-    color: #f6f6f6;
-    font-size: 16pt;
+    color:#4172a3;
+    font-size: 12pt;
     margin-bottom: 0;
 }
 
@@ -86,32 +60,28 @@ p.about {
     font-family: 'Send Flowers', cursive;
     color: #4172a3;
     font-weight: bold;
-    font-size: 50pt;
+    font-size: 30pt;
     padding-top: 5vw;
 }
 
 img.portfolio {
-    border: 1px solid #4172a3;
+    border: 1px solid #A35752;
     padding: 1px;
+    margin-bottom: 5px;
+    height: 200px
 }
 
-.portfolio>h3 {
-    color: #4172a3;
+.portfolio h3 {
+    color: #f6f6f6;
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 16pt;
 }
 
-.portfolio-p-1 {
+.portfolio p {
     font-family: 'Dosis', sans-serif;
-    font-size: 16pt;
-    color: #A35752;
-}
-
-.portfolio-p-2 {
-    font-family: 'Dosis', sans-serif;
-    font-size: 16pt;
-    color: #4172a3;
+    font-size: 12pt;
+    color: #f6f6f6;
 }
 
 a {
@@ -122,50 +92,50 @@ button.portfolio {
     background-color: #f6f6f6;
     color: #4172a3;
     border: 1px solid #4172a3;
-    height: 5vh;
+    height: 50px;
     font-family: 'Dosis', sans-serif;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 button.portfolio:hover,
 button.portfolio:active {
-    background-color: #4172a3;
+    background-color: #A35752;
     color: #f6f6f6;
-    border: 1px solid #4172a3;
+    border: 1px solid #f6f6f6;
 }
 
-.education>h3 {
+.education h3 {
     color: #f6f6f6;
     font-family: 'Dosis', sans-serif;
-    font-size: 20pt;
+    font-size: 16pt;
 }
 
-.education>h4 {
+.education h4 {
     color: #f6f6f6;
     font-family: 'Dosis', sans-serif;
     font-size: 14pt;
 }
 
-.education>p {
-    font-size: 14pt;
+.education p {
+    font-size: 12pt;
     color: #f6f6f6;
     font-family: 'Dosis', sans-serif;
 }
 
 .footer {
     background-color: #f6f6f6;
-    padding-bottom: 5vh;
+    padding-bottom: 50px;
 }
 
 .copyright {
     color: #A35752;
-    font-size: 16pt;
+    font-size: 12pt;
     font-family: 'Dosis', sans-serif;
 }
 
 .footer-logo {
     font-family: 'Send Flowers', cursive;
-    font-size: 50pt;
+    font-size: 30pt;
     text-decoration: none;
     color: #4172a3;
     font-weight: 1000;
@@ -174,37 +144,37 @@ button.portfolio:active {
 }
 
 .contact-me {
-    background-color: #4172a3;
     color: #f6f6f6;
 }
 
-.contact-me>img {
+.contact-me img {
+    margin-top: 60px;
     border-radius: 10%;
 }
 
-.contact-me>h1 {
+.contact-me h1 {
     color: #f6f6f6;
     font-family: 'Send Flowers', cursive;
     font-size: 50pt;
-    padding-left: 1vw;
+    padding-left: 10px;
 }
 
-.contact-me>h2 {
+.contact-me h2 {
     font-family: 'Dosis', sans-serif;
-    padding-left: 1vw;
+    padding-left: 10px;
     font-size: 20pt;
 }
 
-.contact-me>h3 {
+.contact-me h3 {
     font-family: 'Dosis', sans-serif;
-    padding-left: 1vw;
+    padding-left: 10px;
     font-size: 16pt;
-    padding-bottom: 5vw;
+    padding-bottom: 50px;
 }
 
 a.contact-me {
     color: #f6f6f6;
-    padding: 1vw;
+    padding: 10px;
     border-radius: 10%;
 }
 
